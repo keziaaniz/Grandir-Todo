@@ -1,0 +1,29 @@
+.title {
+font-family: 'Agentur-Regular';
+font-weight:6500;
+margin: 5px;
+color: #DFF8EB;
+}
+
+.header {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.header Button {
+    border-radius: 5px;
+    margin-left: 35px;
+    height: 25px;
+    width: 45px;
+    color: #DFF8EB;
+    font-family: 'Citrica-Regular';
+    font-weight: 500;
+    font-size: 16px;
+    -webkit-box-shadow: 1px 2px 10px 1px #A28F9D; 
+box-shadow: 1px 2px 10px 1px #A28F9D;
+}
+
+
+
+ /* #74776b     #A28F9D    #DFF8EB #65350F */

@@ -1,0 +1,35 @@
+.add-form {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.form-label label {
+    font-family: 'Agentur-Regular';
+font-weight:6500;
+color: #DFF8EB;
+font-size: 14px;
+margin: 5px;
+}
+
+.button {
+    font-size: 16px;
+    font-family: 'Citrica-Regular';
+font-weight: 500;
+background-color: #65350F;
+height: 35px;
+width: 85px;
+justify-items: center;
+border-radius: 5px;
+color:  #A28F9D;
+-webkit-box-shadow: 1px 2px 10px 1px #A28F9D; 
+box-shadow: 1px 2px 10px 1px #A28F9D;
+}

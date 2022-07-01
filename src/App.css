@@ -7,6 +7,33 @@
   pointer-events: none;
 }
 
+.container {
+  
+  max-width: 900px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  padding: 30px;
+  background: linear-gradient(90deg, rgba(101,53,15,0.35) 25%, rgba(162,143,157,0.25) 85%);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
+border: 1px solid rgba(162,143,157,0.20);
+}
+
+.title-list {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  font-family: 'Agentur-Regular';
+  font-weight: 500;
+}
+
+.title-list h3, .title-list h4, .title-list button {
+  margin: 15px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -1,0 +1,42 @@
+.todo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(223,248,235, 0.2);
+    box-shadow: 0 8px 22px 0 rgba( 101,53,15, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 162,143,157, 0.2 );
+    margin: 10px;
+}
+
+.todo-form-group {
+    display: flex;
+    margin: 20px;
+    
+    
+}
+
+.form-edit p {
+    margin: 15px;
+    color: #A28F9D;
+    filter: drop-shadow(2px 4px 6px #A28F9D);
+}
+
+.todo-item {
+    margin: 5px 18px 2px 18px;
+}
+
+.todo-item p {
+    font-family: 'Citrica-Regular';
+    font-weight: 700;
+    font-size: 16px;
+    color: #65350F;
+}
+
+.todo-item h5 {
+    font-family: 'Agentur-Regular';
+font-weight:6500;
+color: #DFF8EB;
+}
